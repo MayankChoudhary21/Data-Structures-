@@ -9,6 +9,8 @@ void push(int t) {
 		cout<<"Full";
 		return ;
 	}
+
+
 	st[++top]=t;
 }
 char pop() {
